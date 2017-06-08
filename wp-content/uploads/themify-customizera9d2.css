@@ -1,0 +1,174 @@
+/* Themify Customize Styling */
+#header {	
+	font-family:Arial, Helvetica, sans-serif;	font-size:.8em;
+ 
+}
+.fixed-header #header, .fixed-header #site-description {		font-size:.8em;
+ 
+}
+#site-logo {		position:static;
+ 
+}
+#site-logo img {		width: 40px;
+	height: 40px; 
+}
+#site-logo a {		width: 40px; 
+}
+#site-description {	display: none; 
+}
+.page-title, .page-category-title-wrap .page-title, .page-category-title-wrap .page-category-title, .page-category-title-wrap .page-category-title {	
+	color: #ffffff; 
+}
+
+/* Themify Custom CSS */
+h1 {
+letter-spacing: -.02em;
+}
+
+.sub-head {
+font-weight: 300;
+}
+
+.bg-fix {
+/*background-attachment: fixed;*/
+}
+
+#site-logo img {
+-webkit-box-shadow: 1px 1px 8px 1px rgba(0,0,0,0.16);
+-moz-box-shadow: 1px 1px 8px 1px rgba(0,0,0,0.16);
+box-shadow: 1px 1px 8px 1px rgba(0,0,0,0.16);
+}
+
+#header .social-widget {
+margin-right: 0px;
+}
+
+.module-buttons a {
+-webkit-transition: all .4s;
+-moz-transition: all .4s;
+transition: all .4s;
+}
+
+@media only screen and (max-width: 980px) {
+.hero-text h1 {
+font-size: 400% !important;
+}
+}
+
+@media only screen and (max-width: 740px) {
+.hero-text h1 {
+font-size: 300% !important;
+padding-top: 10%;
+}
+}
+
+@media only screen and (max-width: 805px) {
+.testimonials > .themify-youtube-video {
+display: none;
+}
+}
+
+@media only screen and (max-width: 680px) {
+.slide-content p {
+font-size: .8em;
+line-height: 1.8em;
+}
+}
+
+/* START - Divi Ninja Form Styling */
+.ninja-forms-form-wrap input, select{
+background-color: #eee;
+opacity: .6;
+border: none;
+-moz-border-radius: 0;
+-webkit-border-radius: 0;
+border-radius: 0;
+font-size: 16px;
+color: #444 ;
+padding: 16px;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+.ninja-forms-form-wrap select{
+width: 100% !important;
+height: 60px !important;
+border-radius: 0;
+-moz-border-radius: 0;
+-webkit-border-radius: 0;
+}
+.ninja-forms-required-items {
+display: none;
+}
+textarea.ninja-forms-field{
+background-color: #eee;
+border: none;
+opacity: .6;
+-moz-border-radius: 0;
+-webkit-border-radius: 0;
+border-radius: 0;
+font-size: 16px;
+color: #444;
+padding: 16px;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+.ninja-forms-form-wrap input:focus, select:focus, textarea.ninja-forms-field:focus {
+opacity: 1;
+}
+*[id^='nf_submit_'] > .ninja-forms-field {
+float: right;
+width: 150px;
+color: #1e73be !important;
+margin: 8px auto 0;
+cursor: pointer;
+font-size: 20px;
+font-weight: 500;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+padding: 6px 20px;
+line-height: 1.7em;
+background: transparent;
+border: 2px solid;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+-moz-transition: all 0.2s;
+-webkit-transition: all 0.2s;
+transition: all 0.2s;
+}
+*[id^='nf_submit_'] > .ninja-forms-field:hover {
+background-color: #eee;
+border-color:#eee;
+padding: 6px 20px !important;
+width: 170px;
+}
+.nf-before-form-content {
+display: none;
+}
+.nf-error-msg {
+color: #dedede !important;
+}
+.ninja-forms-req-symbol {
+display: none;
+}
+/* END - Divi Ninja Form Styling */@media screen and (max-width: 976px) { /* Themify Customize Styling */
+#site-logo img {		width: 40px;
+	height: 40px; 
+}
+#site-logo a {		width: 40px; 
+}
+ }@media screen and (max-width: 768px) { /* Themify Customize Styling */
+#site-logo img {		width: 40px;
+	height: 40px; 
+}
+#site-logo a {		width: 40px; 
+}
+ }@media screen and (max-width: 480px) { /* Themify Customize Styling */
+#site-logo img {		width: 40px;
+	height: 40px; 
+}
+#site-logo a {		width: 40px; 
+}
+ }
