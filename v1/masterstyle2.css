@@ -1,0 +1,357 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Global element stylings */
+
+a {
+	color: #BA0202;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #BA0202;
+	text-decoration: underline;
+}
+
+object
+{
+	display: none;
+}
+
+/* div stylings */
+
+body {
+	background: url("headerbg.png") #8d8d8d repeat-x;
+	background-position: top center;
+}
+
+#wrapper {
+	margin: 0 auto;
+	margin-top: -9px;
+	height: auto;
+	width: 710px;
+	position: relative;
+}
+
+#header {
+	
+	margin-left: 3%;
+	margin-top: 1%;
+}
+
+#navBar {
+	height: 30px;
+	width: 800px;
+	position: relative;
+	top: 2px;
+	background-color: #BA0202;
+	display: block;
+	margin-right: -25px;
+	clear: both;
+}
+
+#navBar2 {
+	height: 30px;
+	width: 800px;
+	position: relative;
+	top: 4px;
+	left: -100px;
+	background-color: #BA0202;
+	display: block;
+	margin-right: -25px;
+	margin-bottom: 0px;
+	clear: both;
+}
+
+#content {
+	width: 700px;
+	height: 3005px;
+	margin-top: -63px;
+	background-color: #e6e6e6;
+	/*overflow: hidden;*/
+}
+
+#myPic {
+	z-index: 1;
+	width: auto;
+	height: auto;
+	position: absolute;
+	top: 40px;
+	left: 530px;
+}
+
+#topBox {
+	margin: 0 auto;
+	display: block;
+	width: 700px;
+	height: auto;
+	clear: both;
+	/*position: relative;
+	top: -392px;
+	left: 4px;*/
+}
+
+#greeting {
+	position: relative;
+	top: -60px;
+	left: 38px;
+	width: 450px;
+	font-size: 1.1em;
+	float: left;
+}
+
+#updates {
+	border: 2px dashed #000000;
+	padding-left: 10px;
+	padding-top: -5px;
+}
+
+#connectOptions {
+	float: right;
+	width: 175px;
+	position: relative;
+	top: 67px;
+	left: 13px;
+}
+
+#middleBox {
+	background-color: #BA0202;
+	margin: 0 auto;
+	width: 700px;
+	height: 2030px;
+	clear: both;
+	margin-top: -50px;
+	position: relative;
+	top: 5px;
+}
+
+#resumeProfile {
+	float: left;
+	border: 2px dashed #FFFFFF;
+	position: absolute;
+	left: 20px;
+	top: 100px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: -15px;
+	padding-bottom: -20px;
+	height: 260px;
+	width: 200px;
+}
+
+#resumeProfileAddon {
+	position: relative;
+	top: -5px;
+	left: 15px;
+}
+
+#resumeContent {
+	float: right;
+	position: absolute;
+	left: 270px;
+	top: 75px;
+}
+
+#bottomBox {
+	position: relative;
+	clear: both;
+	margin: 0 auto;
+	width: 700px;
+	height: 300px;
+}
+
+#webWork {
+	margin-top: 50px;
+	margin-left: 20px;
+	float: left;
+	width: 300px;
+}
+
+#writingSamples {
+	margin-top: 44px;
+	margin-left: 20px;
+	float: right;
+	width: 300px;
+	position: relative;
+	left: -10px;
+}
+
+#contentFooter {
+	background: url("footer.png") no-repeat;
+	background-position: top center;
+	height: 39px;
+	width: 750px;
+	clear: none;
+	position: relative;
+	left: -19px
+}
+
+#footer {
+	clear: both;
+	margin-top: -8px;
+	margin: 0 auto;
+	background-color: #BA0202;
+	height: 30px;
+	width: 100%;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	display: block;
+	margin-bottom: -80px;
+	position: relative;
+}
+		
+/* Div, class, or ID-specific element stylings */
+
+#picOfMe {
+	position: relative;
+	top: 7px;
+}
+
+#bullet1 {
+	position: relative;
+	top: 5px;
+	left: 15px;
+}
+
+#bullet2 {
+	position: relative;
+	top: 5px;
+	left: 145px;
+}
+
+#bullet3 {
+	position: relative;
+	top: 5px;
+	left: 315px;
+}
+
+#bullet4 {
+	position: relative;
+	top: 5px;
+	left: 465px;
+}
+
+
+#navBar a {
+	color: #FFFFFF;
+	font-style: italic;
+	font-size: 1.3em;
+	font-weight: 400;
+}
+
+#navBar p {
+	margin-top: 0px;
+	padding-top: 4px;
+	padding-left: 65px;
+	position: relative;
+	top: -20px;
+}
+
+h2.sectionHeading {
+	font: Century Gothic;
+	font-size: 5em;
+	color: #8d8d8d;
+	position: relative;
+	left: 8px;
+}
+
+#connectOptions p.connectHead {
+	font-style: italic;
+	font-size: 20px;
+}
+
+#connectOptions img {
+	margin-top: -15px;
+	margin-bottom: -15px;
+}
+
+p.connectHead {
+	font-weight: bold;
+}
+
+#middleBox p {
+	color: #FFFFFF;
+}
+
+#middleBox ul {
+	color: #FFFFFF;
+	list-style: none;
+	position: relative;
+	left: -25px;
+}
+
+#resumeProfile a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#resumeProfile a:hover {
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+
+#resumeProfile ul {
+	list-style: none;
+	color: #FFFFFF;
+	position: relative;
+	left: -38px;
+	top: -30px;
+	font-size: 18px;
+}
+
+#resumeProfileAddon a {
+	text-decoration: underline;
+}
+
+#webwork a {
+	border-width: 0px;
+	border-style: none;
+}
+
+#webwork img {
+	border-style: none;
+	border-width: 0px;
+}
+	
+h3.portfolioHeader {
+	font-style: italic;
+	color: #8d8d8d;
+	font-size: 1.5em;
+	position: relative; 
+	top: 30px;
+}
+
+#site2 {
+	position: relative;
+	left: 11px;
+}
+
+#site3 {
+	position: relative;
+	top: 11px;
+}
+
+#site4 {
+	position: relative;
+	top: 11px;
+	left: 11px;
+}
+
+#line {
+	position: relative;
+	top: -5px;
+}
+
+#writingSamples a {
+	color: #000000;
+	line-height: 150%;
+	font-size: 1.3em;
+	text-decoration: underline;
+}
+
+#writingSamples a:hover {
+	color: #BA0202;
+	line-height: 150%;
+	font-size: 1.3em;
+	text-decoration: underline;
+}
